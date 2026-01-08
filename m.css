@@ -1,0 +1,150 @@
+header {
+  width: 100%;
+  display: flex;
+  z-index: 20;
+}
+header svg {
+  width: 80px;
+  margin-left: 30px;
+  width: 50%;
+}
+header .login p {
+  display: none;
+}
+header .login {
+  width: 50%;
+  margin-right: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+.login .bt1 {
+  width: 15vw;
+  font-size: 1.5vw;
+  margin-left: 0;
+  margin-right: 10px;
+}
+.login .bt2 {
+  width: 10vw;
+  font-size: 1.5vw;
+}
+main {
+  margin: auto;
+  width: 100%;
+  height: 100vw;
+  max-height: 600px;
+  background: url(/승리호/images/mobile_visual.jpg) center/cover;
+}
+main::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  max-width: 1800px;
+  height: 100vw;
+  max-height: 600px;
+  background: linear-gradient(
+    to top,
+    #1d1d1d,
+    #1d1d1d,
+    #1d1d1d67,
+    #1d1d1d21,
+    #ffffff00,
+    #ffffff00
+  );
+}
+main .movie {
+  width: 60%;
+  z-index: 10;
+  position: absolute;
+  bottom: -120px;
+  left: 40px;
+  transform: translateY(120px);
+}
+.movie img {
+  margin-bottom: 100px;
+}
+.movie h3 {
+  font-size: 5vw;
+}
+.movie p {
+  font-size: 1.6vw;
+}
+.movie h4 {
+  font-size: 2.1vw;
+}
+.movie h2 {
+  font-size: 2.1vw;
+  line-height: 60px;
+}
+.membership {
+  position: relative;
+  height: 70px;
+  margin-left: 50px;
+}
+.membership span {
+  font-size: 2vw;
+  position: absolute;
+  left: 60px;
+  top: 8px;
+}
+.membership button {
+  position: absolute;
+  left: 70px;
+  top: 32px;
+  width: 25%;
+  font-size: 1.8vw;
+}
+figure {
+  margin-top: 300px;
+  font-size: 2.5vw;
+}
+section h3 {
+  font-size: 4vw;
+}
+section ul {
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+}
+article ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+article li {
+  width: 48%;
+}
+section li {
+  width: 45%;
+  font-size: 2.5vw;
+  margin-left: 30px;
+}
+.content ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.content h3 {
+  font-size: 4vw;
+}
+.content li {
+  width: 30%;
+}
+footer aside {
+  width: 100%;
+}
+footer p {
+  font-size: 2.5vw;
+}
+footer li {
+  width: 50%;
+  font-size: 2vw;
+  line-height: 24px;
+}
+footer .ad {
+  margin-top: 20px;
+}
+.ad p {
+  line-height: 16px;
+}
