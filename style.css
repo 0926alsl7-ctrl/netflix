@@ -64,7 +64,7 @@ main {
   max-width: 1800px;
   height: 45vw;
   max-height: 850px;
-  background: url(/승리호/images/visual1.jpg) top/cover;
+  background: url(images/visual1.jpg) top/cover;
   position: relative;
 }
 main::before {
